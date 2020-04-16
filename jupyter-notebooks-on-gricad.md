@@ -21,7 +21,8 @@
  - conda install -c conda-forge cmocean (beautiful oceanic colors on your plots)
  - python -m ipykernel install --user --name pangeo --display-name pangeo
 ### For dask dashboard in jupyter lab
- - jupyter labextension install dask-labextension
+ - conda install jupyterlab
+ - pip install dask-labextension
  - jupyter serverextension enable --py --sys-prefix dask_labextension
  
 # Run the jupyter notebook (on the first time)
